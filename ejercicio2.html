@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicio 2</title>
+</head>
+<body>
+
+    <script>
+        const numeros = [54, 78, 101, 21, 97, 32];
+
+        let nMayor = 0;
+
+        for (let i = 0; i < numeros.length; i++) {
+            if (numeros[i] > nMayor) {
+                nMayor = numeros[i];
+            }
+        }
+
+        console.log(nMayor);
+
+        // Lo habia resuelto con un if, pero justo vi el otro video donde mostraba que lo mejor era hacerlo con un "for", igual dejo como lo habia resuelto al principio.
+
+        
+        // const numeros = [parseInt(prompt('Ingrese el primer número')), parseInt(prompt('Ingrese el segundo número')), parseInt(prompt('Ingrese el tercer número')), parseInt(prompt('Ingrese el cuarto número'))];
+
+        // console.log('Lista de números: ',numeros);
+
+
+        // if (numeros[0] > numeros[1] && numeros[0] > numeros[2] && numeros[0] > numeros[3]) {
+        //     console.log('El mayor es: ', numeros[0]);
+        // } else if (numeros[1] > numeros[2] && numeros[1] > numeros[3]) {
+        //     console.log('El mayor es: ', numeros[1]);
+        // } else if (numeros[2] > numeros[3]) {
+        //     console.log('El mayor es: ', numeros[2]);
+        // } else {
+        //     console.log('El mayor es: ', numeros[3]);    
+        // }
+    </script>
+    
+</body>
+</html>
